@@ -40,6 +40,7 @@ public class AttentionFragment extends BaseFragment implements View.OnClickListe
     private static final String VIDEO_PATH_4 = "/sdcard/Android/data/com.tencent.qqlive" +
             "/files/videos/m0021sf3im1.sd/m0021sf3im1.10203.1.mp4";
 
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.movies_fragment, null);
