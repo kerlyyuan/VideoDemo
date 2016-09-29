@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VideoDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="freeDesc">免费专区</string>
+    <string name="ScoreDesc">积分专区</string>
+    <string name="VipDesc">VIP专区</string>
+
+</resources>

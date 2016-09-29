@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.xxj.kerlyyuan.ui.SlideShowView
+        android:id="@+id/slideshowView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_freeDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/freeDesc"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_1"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:clickable="true" />
+
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_2"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="2dp"
+                android:clickable="true" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_txt_ScoreDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/ScoreDesc"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_3"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp" />
+
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_4"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_txt_VipDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/VipDesc"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_5"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/girl_1" />
+
+            <com.xxj.kerlyyuan.ui.ThumbnailsImageView
+                android:id="@+id/iv_content_6"
+                android:layout_width="0dp"
+                android:layout_height="150dp"
+                android:layout_weight="1"
+                android:src="@drawable/girl_1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
