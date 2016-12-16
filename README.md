@@ -1,0 +1,2 @@
+# VideoDemo
+基于Vitamio的视频播放demo，且首页添加了类似广告的banner功能
